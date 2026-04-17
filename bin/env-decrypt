@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Decrypt .env.encrypted → .env using Sean's Keybase key.
+# Pattern adapted from ~/git/bliss/lib/tasks/env.rake.
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+IN="$ROOT/.env.encrypted"
+OUT="$ROOT/.env"
+
+if [[ ! -f "$IN" ]]; then
+  echo "error: $IN does not exist. nothing to decrypt." >&2
+  exit 1
+fi
+
+keybase decrypt -i "$IN" -o "$OUT"
+echo "decrypted → $OUT"

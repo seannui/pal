@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Encrypt .env → .env.encrypted for Sean's Keybase key only.
+# Pattern adapted from ~/git/bliss/lib/tasks/env.rake; deviation: NOT encrypted for a Keybase team.
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+IN="$ROOT/.env"
+OUT="$ROOT/.env.encrypted"
+
+if [[ ! -f "$IN" ]]; then
+  echo "error: $IN does not exist. nothing to encrypt." >&2
+  exit 1
+fi
+
+keybase encrypt -i "$IN" -o "$OUT" seannui
+echo "encrypted → $OUT"
