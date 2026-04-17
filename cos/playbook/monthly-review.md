@@ -3,14 +3,14 @@
 Default trigger: first Monday of each month, 7:00 MT.
 
 ## Inputs
-1. Last month's weekly wraps (`briefs/weekly/YYYY-WW.md` for the month just closed).
-2. `commitments/open.md` + `commitments/closed.md` — what shipped, what slipped.
-3. `ventures/union.md` — progress vs. strategic frame (turnaround / growth reacceleration).
-4. `ventures/union.md` → bliss shipping pipeline + cost-cutting workstream — item-level status.
-5. `people/*.md` — any relationship thread that moved or stalled.
+1. Last month's weekly wraps (`cos/briefs/weekly/YYYY-WW.md` for the month just closed).
+2. `cos/commitments/open.md` + `cos/commitments/closed.md` — what shipped, what slipped.
+3. `cos/ventures/union.md` — progress vs. strategic frame (turnaround / growth reacceleration).
+4. `cos/ventures/union.md` → bliss shipping pipeline + cost-cutting workstream — item-level status.
+5. `cos/people/*.md` — any relationship thread that moved or stalled.
 6. Calendar month-in-review — where Sean's time actually went.
 
-## Output — write to `briefs/monthly/YYYY-MM.md`
+## Output — write to `cos/briefs/monthly/YYYY-MM.md`
 
 Template:
 

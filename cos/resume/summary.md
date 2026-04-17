@@ -1,6 +1,6 @@
 # Sean — career snapshot
 
-Distilled from the LinkedIn snapshot dated 2026-04-15 (`resume/screencapture-linkedin-in-seannui-2026-04-15-17_09_49.png`), corrected at intake 2026-04-16. Items marked **[confirm]** are for Sean to verify.
+Distilled from the LinkedIn snapshot dated 2026-04-15 (`cos/resume/screencapture-linkedin-in-seannui-2026-04-15-17_09_49.png`), corrected at intake 2026-04-16. Items marked **[confirm]** are for Sean to verify.
 
 - **Union — Founder & CEO, since inception.** ~7 years. Multi-tenant SaaS wellness platform (codename: bliss; product codebase) at ~$1M ARR with stalled growth. ICP: yoga studios, fitness centers, dance studios. Team of 2 (Sean + 1 CX/AM employee). Maya — separate Rails app at `~/git/maya` — is Union's AI marketing agent. This is Sean's only active venture.
 
@@ -23,7 +23,7 @@ Distilled from the LinkedIn snapshot dated 2026-04-15 (`resume/screencapture-lin
 - **Skills (top endorsements on LinkedIn):** Ruby on Rails; User Experience (leadership in top 25%).
 
 ## Open threads / gaps
-Tracked in `inbox/gaps.md`:
+Tracked in `cos/inbox/gaps.md`:
 - Union mission reconciliation: yoga/fitness/dance (Maya plan) vs. first-responders (LinkedIn copy) — pick one framing or articulate how they relate.
 - FullContact CPO / VP P&E exact dates.
 - Eventbrite exact dates.

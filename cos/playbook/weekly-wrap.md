@@ -3,12 +3,12 @@
 Default trigger: Fridays 16:00 CT.
 
 ## Inputs
-1. The week's briefs (`briefs/daily/YYYY-MM-*` for this week).
-2. `commitments/open.md` and changes since last Friday.
-3. `ventures/*.md` — progress vs. current 30-day goal.
+1. The week's briefs (`cos/briefs/daily/YYYY-MM-*` for this week).
+2. `cos/commitments/open.md` and changes since last Friday.
+3. `cos/ventures/*.md` — progress vs. current 30-day goal.
 4. Calendar review — what got time, what didn't.
 
-## Output — write to `briefs/weekly/YYYY-WW.md`
+## Output — write to `cos/briefs/weekly/YYYY-WW.md`
 
 Template:
 

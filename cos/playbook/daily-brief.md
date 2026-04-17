@@ -4,12 +4,12 @@ Default trigger: weekday 7:00 CT (once `schedule` is wired).
 
 ## Inputs
 1. Today's calendar (Google Calendar MCP). Include tomorrow if today is light.
-2. `commitments/open.md` — anything due today, this week, or overdue.
-3. `ventures/*.md` — current 30-day goals, any pending decisions.
-4. Unread inbox triage (Gmail MCP) — top 5 threads by priority (see `playbook/triage.md`).
-5. `inbox/gaps.md` — any blocking questions for Sean.
+2. `cos/commitments/open.md` — anything due today, this week, or overdue.
+3. `cos/ventures/*.md` — current 30-day goals, any pending decisions.
+4. Unread inbox triage (Gmail MCP) — top 5 threads by priority (see `cos/playbook/triage.md`).
+5. `cos/inbox/gaps.md` — any blocking questions for Sean.
 
-## Output — write to `briefs/daily/YYYY-MM-DD.md`
+## Output — write to `cos/briefs/daily/YYYY-MM-DD.md`
 
 Template:
 
@@ -35,7 +35,7 @@ Template:
 - <decision> — <framing> — <what's blocking>
 
 ## Questions for you
-- (from inbox/gaps.md, max 3)
+- (from cos/inbox/gaps.md, max 3)
 ```
 
 ## Rules

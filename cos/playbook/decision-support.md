@@ -47,4 +47,4 @@ Present options. Don't prescribe. Sean decides. Your job is to make the frame co
 - **Flag reversibility.** Sean is pressure-prompted — he'll make a fast call. Make sure he sees which calls are hard to reverse before he makes them.
 
 ## When to escalate rather than frame
-If the decision is material (financial, legal, co-founder, investor, named client) and the context file is sparse, say so: "*Before framing this, I need [X] from you or `ventures/<v>.md`.*" Don't fake certainty.
+If the decision is material (financial, legal, co-founder, investor, named client) and the context file is sparse, say so: "*Before framing this, I need [X] from you or `cos/ventures/<v>.md`.*" Don't fake certainty.

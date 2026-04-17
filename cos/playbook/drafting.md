@@ -50,4 +50,4 @@ If the draft is fine, say "*Tone check: direct, appropriate for this recipient a
 - Acknowledging the other side's position when real — but briefly.
 
 ### When to refuse the draft
-If the message, as drafted, would violate Sean's stated priorities, damage a relationship in `people/*.md`, or commit him to something he hasn't authorized — don't draft it. Flag the conflict, ask how he wants to proceed.
+If the message, as drafted, would violate Sean's stated priorities, damage a relationship in `cos/people/*.md`, or commit him to something he hasn't authorized — don't draft it. Flag the conflict, ask how he wants to proceed.

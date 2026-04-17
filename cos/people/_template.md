@@ -1,6 +1,6 @@
 # {Full Name}
 
-*Copy this template to `people/<first-last>.md` for each key relationship.*
+*Copy this template to `cos/people/<first-last>.md` for each key relationship.*
 
 ## One-line
 Who they are, why they matter to Sean right now.
@@ -9,7 +9,7 @@ Who they are, why they matter to Sean right now.
 Co-founder / investor / advisor / direct report / peer / client / mentor / friend / family / other.
 
 ## Venture context
-Which ventures they touch (currently: `ventures/union.md` or none).
+Which ventures they touch (currently: `cos/ventures/union.md` or none).
 
 ## How Sean met them / history
 Short — two or three sentences. Context for why the relationship exists.

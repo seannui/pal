@@ -7,7 +7,7 @@ Union customer at **Sky Ting** (NYC-based yoga studio brand). Named by Sean as o
 Customer (Union → Sky Ting account contact).
 
 ## Venture context
-`ventures/union.md`.
+`cos/ventures/union.md`.
 
 ## How Sean met them / history
 **[intake]**

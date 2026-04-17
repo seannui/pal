@@ -4,9 +4,9 @@ When Sean asks "prep me for X" or a calendar event is <2h out with no prep writt
 
 ## Inputs
 1. Calendar event (who, when, subject, description, attached docs).
-2. `people/<attendee>.md` for each attendee (if missing, stub one and flag in `inbox/gaps.md`).
+2. `cos/people/<attendee>.md` for each attendee (if missing, stub one and flag in `cos/inbox/gaps.md`).
 3. Last N email threads with those attendees (Gmail MCP, last 90 days, or since last meeting).
-4. `ventures/*.md` and `commitments/open.md` — what's open between Sean and these people.
+4. `cos/ventures/*.md` and `cos/commitments/open.md` — what's open between Sean and these people.
 5. Recent relevant briefs.
 
 ## Output — one page, in-chat (no file unless asked)

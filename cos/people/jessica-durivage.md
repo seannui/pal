@@ -7,7 +7,7 @@ Union customer at **Kripalu** (the Kripalu Center for Yoga & Health — large we
 Customer (Union → Kripalu account contact).
 
 ## Venture context
-`ventures/union.md`.
+`cos/ventures/union.md`.
 
 ## How Sean met them / history
 **[intake]**

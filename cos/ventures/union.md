@@ -16,7 +16,7 @@ Wellness SaaS serving yoga studios, fitness centers, and dance studios. First-re
 - **Growth:** stalled — the central problem.
 - **Sean's tenure:** Founder & CEO since inception.
 - **Funding:** **[intake]**
-- **Team size:** 2 humans total — Sean (CEO, effectively also product/eng/GTM) + **Katy Strot** (CX and Account Management, `people/katy-strot.md`).
+- **Team size:** 2 humans total — Sean (CEO, effectively also product/eng/GTM) + **Katy Strot** (CX and Account Management, `cos/people/katy-strot.md`).
 
 ## Current professional focus (not boxed to 30 days)
 **Stand up the GTM function via Maya, done right.**
@@ -34,7 +34,7 @@ Latent success criteria (no date — unblocked when Maya is right):
 ## Team
 Two people total.
 - **Sean Porter** — Founder & CEO. Effectively also product, eng, and GTM owner.
-- **Katy Strot** — CX & Account Management. See `people/katy-strot.md`.
+- **Katy Strot** — CX & Account Management. See `cos/people/katy-strot.md`.
 
 ## Biggest unlock
 **[intake]**
@@ -55,13 +55,13 @@ Two people total.
 - **Maya** — AI marketing intelligence + automation agent. Separate Rails 8.1 app at `~/git/maya` (repo `superset-labs/maya`). Integrates GA4, Meta Ads, HubSpot, GSuite, Slack, Cloudflare. See Maya's `AGENTS.md` and `doc/context/maya_plan.md` for scope.
 - **Union → Maya dependency.** Activation/retention/churn data requires bliss to expose Doorkeeper OAuth2 endpoints — scoped as a separate task in bliss (not yet done, per Maya's AGENTS.md).
 
-## bliss shipping pipeline (tracked in `commitments/open.md`)
+## bliss shipping pipeline (tracked in `cos/commitments/open.md`)
 - **2026-04-23** — ship **Stripe sub-accounts** in bliss.
 - **2026-04-30** — ship **Marketing Automation v1** inside bliss, **replacing customer.io** for marketing. (Transactional sends remain on customer.io — see cost-cutting workstream below.)
 
 *Note: Sean is solo dev on bliss; Katy is CX/AM. Both dates are tight. These commitments implicitly gate any serious forward motion on Maya through end of April — logged as context, not a pushback.*
 
-## Cost-cutting workstream (rolling; summary in `commitments/open.md`)
+## Cost-cutting workstream (rolling; summary in `cos/commitments/open.md`)
 
 Articulated by Sean at intake 2026-04-16. Overall target window / savings target: **[intake]**.
 

@@ -7,7 +7,7 @@ Sean's only employee at Union. Owns CX and Account Management. In a 2-person com
 Direct report. Employee.
 
 ## Venture context
-`ventures/union.md`.
+`cos/ventures/union.md`.
 
 ## How Sean met them / history
 **[intake]**
