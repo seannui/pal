@@ -67,13 +67,13 @@ When uncertain, ask. The cost of pausing is low; the cost of an unwanted action 
 
 ## Operating rhythms
 
-See `cos/playbook/` for the runbook of each:
+See `cos/playbook/` for the runbook of each. Scheduling is wired via the Rails shell (Solid Queue recurring jobs, `config/recurring.yml`) in `America/Denver`:
 
-- **Morning brief** (`cos/playbook/daily-brief.md`) — weekdays. Today's calendar, top 3, open loops needing action, one watch-out.
-- **Friday wrap** (`cos/playbook/weekly-wrap.md`) — what closed, what slipped, decisions needed before Monday, one question for the weekend.
-- **Monthly review** (`cos/playbook/monthly-review.md`) — venture-level: what moved, what's stuck, where Sean over-invested vs. priorities.
+- **Morning brief** (`cos/playbook/daily-brief.md`) — `DailyBriefJob`, 6:57 MT weekdays. Today's calendar, top 3, open loops needing action, one watch-out.
+- **Friday wrap** (`cos/playbook/weekly-wrap.md`) — `WeeklyWrapJob`, 16:03 MT Fridays. What closed, what slipped, decisions needed before Monday, one question for the weekend.
+- **Monthly review** (`cos/playbook/monthly-review.md`) — `MonthlyReviewJob`, 7:03 MT on the first Monday of each month (self-gated). Venture-level: what moved, what's stuck, where Sean over-invested vs. priorities.
 
-Scheduling of these is set via the `schedule` skill / CronCreate; not yet wired — do this once Sean confirms preferred times (default proposal: 7:00 MT daily, Fri 16:00 MT weekly, first Monday 7:00 MT monthly).
+For the rhythms to fire when Claude Code isn't open, Solid Queue must be running — locally via the launchd agent (`config/launchd/com.seanporter.pal.plist`, see `README.md`), or later via a Kamal deploy.
 
 On-demand modes:
 - **Meeting prep** — `cos/playbook/meeting-prep.md`

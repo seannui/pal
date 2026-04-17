@@ -35,11 +35,12 @@ Captured at intake 2026-04-16.
 
 ## Post-intake workstream (Sean → pal)
 
-| When | What | Why |
-|---|---|---|
-| After intake completes | Sean wires Union (bliss) API endpoints for pal to consume realtime biz metrics + top-revenue account owners | Unlocks (a) realtime Union metrics in briefs; (b) seeding the remaining 7 `cos/people/*.md` files for main account owners by revenue. |
-| After intake completes | Pal wires scheduled rhythms via `schedule` skill / CronCreate — daily brief 7:00 MT weekdays, Friday wrap 16:00 MT, monthly review first Monday 7:00 MT | Activates the operating cadence Sean confirmed 2026-04-16. |
-| After intake completes | Pal sets up `.env` + Keybase encrypt/decrypt in `~/git/pal` following `~/git/bliss` pattern, deviation = Sean's Keybase key only (not team) | Secures any secrets pal needs (API keys, tokens) consistent with Sean's other repos. |
+| When | What | Why | Status |
+|---|---|---|---|
+| Open | Sean wires Union (bliss) API endpoints for pal to consume realtime biz metrics + top-revenue account owners | Unlocks (a) realtime Union metrics in briefs; (b) seeding the remaining 7 `cos/people/*.md` files for main account owners by revenue. | **Open** — waiting on Sean. |
+| 2026-04-17 | Pal wires scheduled rhythms — via Rails 8 + Solid Queue (not `schedule` skill; architectural upgrade Sean made mid-session) | Activates the operating cadence Sean confirmed 2026-04-16. | **✅ Done** — `config/recurring.yml` + Solid Queue, proven end-to-end 2026-04-17. Persistent via launchd (see `README.md`). |
+| 2026-04-17 | Pal sets up `.env` + Keybase encrypt/decrypt following `~/git/bliss` pattern, deviation = Sean's Keybase key only | Secures any secrets pal needs. | **✅ Done** — `bin/env-encrypt` + `bin/env-decrypt`; v0.1.1 will consume `ANTHROPIC_API_KEY` via this. |
+| Open (v0.1.1 next commit) | Pal swaps `PlaybookRunner` stub for a real Claude API call with prompt caching | Briefs stop being placeholders and become real outputs derived from the playbook + cos/ markdown. | **Open** — needs `ANTHROPIC_API_KEY` set in `.env`. |
 
 ---
 
