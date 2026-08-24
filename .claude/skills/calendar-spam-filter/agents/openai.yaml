@@ -1,0 +1,4 @@
+interface:
+  display_name: "Calendar Spam Filter"
+  short_description: "Turn spam calendar invites into Gmail trash filters with gws."
+  default_prompt: "Find the spam calendar invite, extract sender and link domains, and add Gmail trash filters with gws."

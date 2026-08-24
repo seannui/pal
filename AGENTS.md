@@ -13,6 +13,31 @@ See `CLAUDE.md` for the chief-of-staff behavior contract. This file is the engin
 
 ---
 
+## Repo-local skills
+
+Before repeating a known operational workflow, check `.claude/skills/` and read the matching `SKILL.md` fully before acting.
+
+- Calendar invite spam / Gmail trash filters via `gws`: `.claude/skills/calendar-spam-filter/SKILL.md`
+
+---
+
+## Google Workspace CLI accounts
+
+There are two local `gws` auth contexts on Sean's machine. Pick the config directory deliberately before Gmail or Calendar work:
+
+- **Union work account:** default `gws` config at `~/.config/gws`, authenticated as `sean@union.fit`. Use this for Union calendar/Gmail workflows and repo-local calendar spam filter tasks unless Sean specifies otherwise.
+- **Personal seanporter.com account:** alternate config at `~/.config/gws-seanporter`, authenticated as `mail@seanporter.com`. Use this for personal-domain inbox, alias, and `@seanporter.com` recipient scans.
+
+For the personal account, invoke `gws` with the config directory explicitly:
+
+```bash
+GOOGLE_WORKSPACE_CLI_CONFIG_DIR=$HOME/.config/gws-seanporter gws gmail users getProfile --params '{"userId":"me"}'
+```
+
+Do not query `mail@seanporter.com` from the default `~/.config/gws` context; that auth is `sean@union.fit` and will return a delegation error. For alias review work, keep the workflow read-only until Sean has reviewed the candidate aliases to keep or reject.
+
+---
+
 ## Tech Stack
 
 - **Runtime:** Ruby 3.3.10 via mise (`.mise.toml`) — matches bliss + Maya.
