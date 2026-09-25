@@ -1,0 +1,49 @@
+Disputed transaction
+
+Merchant: Webflow
+Transaction date: September 25, 2026
+Amount: $300.00
+Card: Visa ending in 3868
+Invoice number: 1790354754
+Invoice ID: in_0UJcFyo2ZNzxqgUAfUWX82Ib
+Service: Union Homepage annual Site plan in Superset's Workspace
+
+Basis of dispute
+
+I recognize Webflow and authorized an earlier annual subscription. I am not reporting card theft or an unrecognized merchant. I dispute the September 25, 2026 automatic renewal because Webflow did not give the timely, accurate annual renewal notice required for this Colorado business transaction, and its cancellation path does not appear to satisfy Colorado's online cancellation requirements.
+
+Timeline
+
+- May 13, 2026: Webflow sent a general marketing/billing announcement to ops@supersethq.com. It said existing CMS customers would migrate to a Premium plan costing $25 per month billed annually, effective at the next renewal on or after June 29. I acknowledge this email; I am not claiming that Webflow gave no general pricing notice.
+- August 16–31, 2026: This was the 25-to-40-day statutory notice window for a September 25 annual renewal. A search of our business mailbox found no Webflow renewal notice in this period.
+- September 18, 2026: Webflow sent its only site-specific notice. Its subject was “Your CMS plan for Union Homepage renews in 7 days.” The email said the plan would renew September 25 and “You'll be charged $276.00 to the card ending in 3868.” It called that amount an estimate and said it might vary for taxes, discounts, or credits.
+- September 25, 2026: Webflow charged exactly $300.00. The receipt described the charge as “Subscription update” and linked to information about Webflow's updated pricing. The $24 difference was the announced plan-price increase, not a separately itemized tax.
+- September 25, 2026: I asked Webflow to cancel the renewed annual term, disable future auto-renewal, and reverse the charge. Webflow escalated the request for manual billing review as ticket #1197696. The request is pending.
+
+Applicable Colorado requirements
+
+C.R.S. § 6-1-732(4)(b) requires a seller to send an annual automatic-renewal notice at least 25 and no more than 40 days before each renewal. Webflow's site-specific notice came seven days before renewal.
+
+C.R.S. § 6-1-732(2)(d) requires a simple, cost-effective, timely, easy-to-use, and readily accessible cancellation mechanism and identifies a one-step online cancellation link as compliant when the consumer enrolled online. Subsection (2.5) permits a seller to display information about cancellation effects or a retention offer only if a prominently located and continuously proximate direct cancellation link is displayed at the same time. The current Webflow path requires the user to choose a downgrade to Starter, pass a consequences screen that lacks a direct final-cancel link, continue to another screen, select a reason, and then confirm the downgrade.
+
+Colorado's final fiscal note for SB 25-145 states that the law's application to businesses took effect February 16, 2026 and applies to contracts offered or renewed on or after that date. Superset operates in Colorado, and this contract renewed on September 25, 2026. Webflow is not among the regulated-industry exemptions listed in C.R.S. § 6-1-732(5).
+
+Requested resolution
+
+Please reverse the full $300 charge. We do not seek the renewed September 25, 2026–September 25, 2027 term and have asked Webflow to cancel it and stop future renewal.
+
+Evidence attached or available
+
+1. September 18 renewal notice showing the seven-day timing and $276 amount.
+2. September 25 receipt showing the $300 charge and “Subscription update” description.
+3. May 13 pricing announcement, included for completeness.
+4. Webflow billing page showing the annual Premium plan, current term, and invoice.
+5. Screenshots or a recording of the multi-screen cancellation path.
+6. Webflow support request and its response or lack of response.
+7. C.R.S. § 6-1-732 and the Colorado General Assembly's final fiscal note for SB 25-145.
+
+Sources
+
+Colorado statute: https://olls.info/crs/crs2026-title-06.htm
+Colorado SB 25-145: https://leg.colorado.gov/bills/sb25-145
+Official final fiscal note: https://content.leg.colorado.gov/sites/default/files/documents/2025A/bills/fn/2025a_sb145_f1.pdf

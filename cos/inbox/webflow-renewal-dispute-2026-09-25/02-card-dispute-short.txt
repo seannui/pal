@@ -1,0 +1,7 @@
+I dispute Webflow's $300 recurring charge dated September 25, 2026. I recognize the merchant and authorized the prior subscription. This is an automatic-renewal dispute, not a fraud claim.
+
+Webflow's only site-specific reminder arrived September 18—seven days before renewal—and said it would charge $276. Webflow charged $300. We found no reminder in Colorado's required 25-to-40-day window, August 16–31. See C.R.S. § 6-1-732(4)(b). The purchaser operates in Colorado; business coverage applies to this September 2026 renewal.
+
+The multi-screen cancellation path's consequences screen lacked a simultaneous direct cancellation link, which appears inconsistent with C.R.S. § 6-1-732(2)(d) and (2.5).
+
+I acknowledge Webflow's May 13 general email announcing migration to a $300/year Premium plan. It does not cure the untimely annual reminder or its $276 amount. On September 25, I requested a reversal from Webflow. The request was escalated for manual billing review as ticket #1197696 and is pending.

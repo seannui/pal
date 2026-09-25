@@ -1,0 +1,30 @@
+Subject: Refund request — invoice 1790354754 / Union Homepage annual renewal
+
+Hello Webflow Billing Support,
+
+Please cancel the September 25, 2026 annual renewal for Union Homepage and refund the full $300 charge to the Visa ending in 3868. The invoice number is 1790354754 and the invoice ID is in_0UJcFyo2ZNzxqgUAfUWX82Ib.
+
+Superset is a Delaware corporation operating in Colorado. This automatic renewal occurred after Colorado's automatic-renewal protections became applicable to business purchasers.
+
+The site-specific renewal notice Webflow sent to ops@supersethq.com on September 18 had the subject “Your CMS plan for Union Homepage renews in 7 days.” It stated that the plan would renew on September 25 and that Webflow would charge $276.00. Webflow instead charged $300.00 seven days later and described the transaction on the receipt as a “Subscription update.”
+
+I recognize that Webflow also sent a general pricing announcement on May 13 explaining the CMS-to-Premium migration and the $25-per-month annual price. That announcement does not resolve the problem with this annual renewal: the only site-specific renewal notice arrived seven days before the charge and stated a different amount.
+
+Colorado Revised Statutes § 6-1-732(4)(b) requires an annual automatic-renewal notice at least 25 and no more than 40 days before each renewal. For a September 25 renewal, that window was August 16 through August 31. We found no Webflow renewal notice in that period.
+
+Colorado law requires a simple, cost-effective, timely, easy-to-use, and readily accessible cancellation mechanism, and identifies a one-step online cancellation link as compliant for subscriptions accepted online. See C.R.S. § 6-1-732(2)(d). If a cancellation flow presents information about the effects of cancellation, subsection (2.5) permits that only while simultaneously displaying a prominently located direct link to cancel. In the current Webflow flow, canceling this site plan requires selecting a Starter downgrade, passing a consequences screen without a direct final-cancel link, continuing to a second screen, selecting a reason, and then confirming the downgrade.
+
+Please confirm within seven calendar days that Webflow will:
+
+1. reverse the full $300 charge;
+2. cancel the renewed September 25, 2026–September 25, 2027 annual term and disable future auto-renewal; and
+3. preserve our site content while we complete any necessary export or migration steps.
+
+Please do not delete site content. If a particular plan action is required before you can issue the refund, tell me exactly what action is needed and how to complete it without losing content.
+
+If Webflow declines, please provide the specific basis for the denial and copies of every renewal notice Webflow contends satisfied the 25-to-40-day notice window. We will preserve that response for the card issuer and the Colorado Attorney General.
+
+Thank you,
+
+Sean Porter
+Superset
