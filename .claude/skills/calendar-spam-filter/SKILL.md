@@ -1,13 +1,13 @@
 ---
 name: calendar-spam-filter
-description: Use when Sean asks to handle spam Google Calendar invites, calendar invite spam, suspicious webinar/training events, or to add Gmail spam/trash filters from a calendar event using the gws command line app. This skill covers finding the event on sean@union.fit or another specified calendar, extracting organizer/sender/reply-to/link domains, and creating Gmail filters that send future matching messages to Trash.
+description: Use when Sean asks to handle spam Google Calendar invites, calendar invite spam, suspicious webinar/training events, or to add Gmail spam/trash filters from a calendar event using the gws command line app. This skill covers finding the event on sean@union.fit, mail@seanporter.com, or another specified calendar, extracting organizer/sender/reply-to/link domains, and creating Gmail filters that send future matching messages to Trash.
 ---
 
 # Calendar Spam Filter
 
 ## Workflow
 
-Use `gws` for both Calendar and Gmail. Default to `sean@union.fit` unless Sean specifies another account or calendar.
+Use `gws` for both Calendar and Gmail. Default to `sean@union.fit` unless Sean specifies another account or calendar. If the event is not on the default account, check the personal account before reporting it missing.
 
 1. Resolve relative dates to absolute dates in `America/Denver`.
 2. Pull the calendar event with `showHiddenInvitations:true` and `showDeleted:true`; spam invites may be hidden, declined, or cancelled.
@@ -24,6 +24,34 @@ Use `gws` for both Calendar and Gmail. Default to `sean@union.fit` unless Sean s
 7. Verify the filters exist.
 
 Do not RSVP, delete, decline, or otherwise modify the calendar event unless Sean explicitly asks in the same turn.
+
+## Accounts
+
+`gws` has two separate login contexts, set up by `~/git/dotfiles`:
+
+| Account | Context | IDs to use |
+|---|---|---|
+| `sean@union.fit` (default) | plain `gws` | `sean@union.fit` |
+| `mail@seanporter.com` (personal) | prefix every command with `GOOGLE_WORKSPACE_CLI_CONFIG_DIR="$HOME/.config/gws-seanporter"` | `"calendarId":"primary"`, `"userId":"me"` |
+
+The examples below use `sean@union.fit`; for the personal account, add the prefix and
+swap in `primary` / `me`. Never set the variable globally or run `gws auth login`
+without it, since that replaces the Union login that pal's jobs use.
+
+Auth failures:
+
+- `invalid_grant ... invalid_rapt`: Google expired the login. Sean must re-run
+  `gws auth login` with the context prefix himself. Write the command to a short-line
+  script in the scratchpad and have him run `! sh <path>`; long pasted commands wrap
+  and break in his terminal.
+- `403 insufficient authentication scopes` on filters: the login needs
+  `https://www.googleapis.com/auth/gmail.settings.basic`. Re-login with `--scopes`
+  listing the current scopes from `gws auth status` plus that one.
+- Still 403 after a scope change: move that context's `token_cache.json` aside
+  (`token_cache.pre-<reason>-YYYY-MM-DD.json`) so gws mints a token with the new scopes.
+- After any re-login, run `bin/dotf gws_credentials save` in `~/git/dotfiles` and
+  tell Sean to commit the updated `secrets/gws*/` files, so other machines get the
+  new login.
 
 ## Link-Domain Safety
 
